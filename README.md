@@ -4,6 +4,16 @@
 First, the necessary libraries and dependencies are installed. This includes librosa for audio processing, ffmpeg-python for handling video and audio files, and other dependencies required
  by the Wav2Lip model.
  
+ ```python
+!pip install librosa==0.9.1
+!git clone https://github.com/zabique/Wav2Lip
+!cd Wav2Lip && pip install -r requirements.txt
+!pip install ffmpeg-python
+!rm -rf /sample_data
+!mkdir /sample_data
+```
+
+ 
 
 ### Downloading Resources
 Two critical resources are downloaded: a face detection model (s3fd.pth) and the Wav2Lip checkpoint file (wav2lip_gan.pth). These models are essential for the Wav2Lip inference process.

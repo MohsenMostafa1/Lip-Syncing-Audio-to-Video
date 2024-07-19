@@ -1,7 +1,7 @@
 # Lip-Syncing-Audio-to-Video
-<div align="center">
-  <img src="[https://www.tensorflow.org/images/tf_logo_horizontal.png](https://camo.githubusercontent.com/3c044b086f1050830f1e624833f3d511037dbb6c471136b3a18a95ea6ca27b43/68747470733a2f2f6f70656e74616c6b65722e6769746875622e696f2f766964656f2d726574616c6b696e672f7374617469632f696d616765732f7465617365722e706e67)">
-</div>
+figure>
+        <img src="[https://ar5iv.labs.arxiv.org/html/2212.04970/assets/x1.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuOx3O8qp4sznnTOfNyafLkbcEd2x29WbRtA&s)" alt ="Audio Art" style='width:800px;height:500px;'>
+        <figcaption>
 
 ### Environment Setup
 First, the necessary libraries and dependencies are installed. This includes librosa for audio processing, ffmpeg-python for handling video and audio files, and other dependencies required

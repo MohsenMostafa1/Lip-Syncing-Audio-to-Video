@@ -13,10 +13,17 @@ First, the necessary libraries and dependencies are installed. This includes lib
 !mkdir /sample_data
 ```
 
- 
-
 ### Downloading Resources
 Two critical resources are downloaded: a face detection model (s3fd.pth) and the Wav2Lip checkpoint file (wav2lip_gan.pth). These models are essential for the Wav2Lip inference process.
+
+```python
+!wget "https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth" -O "/kaggle/working/Wav2Lip/face_detection/detection/sfd/s3fd.pth"
+
+# Create checkpoints directory if it doesn't exist
+!mkdir -p /kaggle/working/Wav2Lip/checkpoints
+# Download the wav2lip_gan.pth checkpoint file
+!wget "https://github.com/Rudrabha/Wav2Lip/releases/download/v0.1/wav2lip_gan.pth" -O "/kaggle/working/Wav2Lip/checkpoints/wav2lip_gan.pth"
+
 
 #### Create checkpoints directory if it doesn't exist
 

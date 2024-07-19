@@ -1,6 +1,6 @@
 # Lip-Syncing-Audio-to-Video
 <figure>
-        <img src="[https://ar5iv.labs.arxiv.org/html/2212.04970/assets/x1.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuOx3O8qp4sznnTOfNyafLkbcEd2x29WbRtA&s)" alt ="Audio Art" style='width:800px;height:500px;'>
+        <img src="https://ar5iv.labs.arxiv.org/html/2212.04970/assets/x1.png" alt ="Audio Art" style='width:800px;height:500px;'>
         <figcaption>
 
 ### Environment Setup
